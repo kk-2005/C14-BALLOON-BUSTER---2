@@ -74,25 +74,25 @@ function draw() {
     //ballon.destroyEach();
     
     arrowGroup.destroyEach();
-    score=score+1;
+    score=score+1979;
   }
 
   if (arrowGroup.isTouching(greenB)) {
     greenB.destroyEach();
     arrowGroup.destroyEach();
-    score=score+3;
+    score=score+2003;
   }
 
   if (arrowGroup.isTouching(blueB)) {
     blueB.destroyEach();
     arrowGroup.destroyEach();
-    score=score+2;
+    score=score+2017;
   }
 
   if (arrowGroup.isTouching(pinkB)) {
     pinkB.destroyEach();
     arrowGroup.destroyEach();
-    score=score+1;
+    score=score+1997;
   }
 
   drawSprites();
